@@ -2,12 +2,12 @@
   "name": "vitepress-project",
   "private": true,
   "type": "module",
-"scripts": {
-  "dev": "vitepress dev",
-  "build": "vitepress build",
-  "serve": "vitepress serve",
-  "deploy": "vitepress build && gh-pages -d .vitepress/dist"
-},
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "deploy": "vitepress build && gh-pages -d .vitepress/dist"
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "vitepress": "1.0.0-alpha.28",
